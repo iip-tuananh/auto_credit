@@ -45,10 +45,10 @@
 <link rel="stylesheet" href="/site/css/plugins.css">
 
 <!-- search css -->
-<link rel="stylesheet" href="/site/search/search.css">
+{{--<link rel="stylesheet" href="/site/search/search.css">--}}
 
 <!-- quform css -->
-<link rel="stylesheet" href="/site/quform/css/base.css">
+{{--<link rel="stylesheet" href="/site/quform/css/base.css">--}}
 
 <!-- theme core css -->
 <link href="/site/css/styles.css" rel="stylesheet">

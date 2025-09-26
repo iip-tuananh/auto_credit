@@ -42,7 +42,7 @@
 <script src="/site/js/core.min.js"></script>
 
 <!-- Search -->
-<script src="/site/jssearch.js"></script>
+{{--<script src="/site/jssearch.js"></script>--}}
 
 <!-- custom scripts -->
 <script src="/site/js/main.js"></script>

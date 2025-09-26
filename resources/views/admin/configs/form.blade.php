@@ -128,29 +128,29 @@
 
 			</div>
 			<div class="col-md-4 col-xs-12">
-				<div class="form-group text-center mb-4">
-					<label class="form-label required-label">Logo</label>
-					<div class="main-img-preview">
-						<p class="help-block-img">* Ảnh định dạng: jpg, png không quá 1MB.</p>
-						<img class="thumbnail img-preview" ng-src="<% form.image.path %>">
-					</div>
-					<div class="input-group" style="width: 100%; text-align: center">
-						<div class="input-group-btn" style="margin: 0 auto">
-							<div class="fileUpload fake-shadow cursor-pointer">
-								<label class="mb-0" for="<% form.image.element_id %>">
-									<i class="glyphicon glyphicon-upload"></i> Chọn ảnh
-								</label>
-								<input class="d-none" id="<% form.image.element_id %>" type="file" class="attachment_upload" accept=".jpg,.jpeg,.png">
-							</div>
-						</div>
-					</div>
-					<span class="invalid-feedback d-block" role="alert">
-						<strong><% errors.image[0] %></strong>
-					</span>
-				</div>
+{{--				<div class="form-group text-center mb-4">--}}
+{{--					<label class="form-label required-label">Logo</label>--}}
+{{--					<div class="main-img-preview">--}}
+{{--						<p class="help-block-img">* Ảnh định dạng: jpg, png không quá 1MB.</p>--}}
+{{--						<img class="thumbnail img-preview" ng-src="<% form.image.path %>">--}}
+{{--					</div>--}}
+{{--					<div class="input-group" style="width: 100%; text-align: center">--}}
+{{--						<div class="input-group-btn" style="margin: 0 auto">--}}
+{{--							<div class="fileUpload fake-shadow cursor-pointer">--}}
+{{--								<label class="mb-0" for="<% form.image.element_id %>">--}}
+{{--									<i class="glyphicon glyphicon-upload"></i> Chọn ảnh--}}
+{{--								</label>--}}
+{{--								<input class="d-none" id="<% form.image.element_id %>" type="file" class="attachment_upload" accept=".jpg,.jpeg,.png">--}}
+{{--							</div>--}}
+{{--						</div>--}}
+{{--					</div>--}}
+{{--					<span class="invalid-feedback d-block" role="alert">--}}
+{{--						<strong><% errors.image[0] %></strong>--}}
+{{--					</span>--}}
+{{--				</div>--}}
 
                 <div class="form-group text-center mb-4">
-                    <label class="form-label required-label">Logo 2</label>
+                    <label class="form-label required-label">Logo</label>
                     <div class="main-img-preview">
                         <p class="help-block-img">* Ảnh định dạng: jpg, png </p>
                         <img class="thumbnail img-preview" ng-src="<% form.image_back.path %>">

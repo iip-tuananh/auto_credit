@@ -26,7 +26,7 @@
                             <div class="navbar-header navbar-header-custom">
                                 <!-- start logo -->
                                 <a href="{{ route('front.home-page') }}" class="navbar-brand">
-                                    <img id="logo" src="{{ $config->image->path ?? '' }}" alt="logo"></a>
+                                    <img id="logo" src="{{ $config->image_back->path ?? '' }}" alt="logo"></a>
                                 <!-- end logo -->
                             </div>
 

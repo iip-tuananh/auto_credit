@@ -19,7 +19,7 @@
 
 <script>
     window.APP_LOGO = {
-        default: @json( optional($config->image)->path ? $config->image->path : asset('img/logos/logo.png') ),
+        default: @json( optional($config->image_back)->path ? $config->image_back->path : asset('img/logos/logo.png') ),
         inner:  @json( optional($config->image_back)->path ? $config->image_back->path : asset('img/logos/logo.png') ),
         fromConfig: @json( optional($config->image)->path ? $config->image->path : asset('img/logos/logo.png') )
     };
